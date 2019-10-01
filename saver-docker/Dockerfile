@@ -10,3 +10,6 @@ RUN opam repo add http https://opam.ocaml.org/1.2.2 && \
     python libgmp-dev libc6-i386 lib32z1 lib32stdc++6 rsync libmpfr-dev \
     openjdk-8-jdk-headless && \
   opam switch -j 28 set infer-4.06.1+flambda --alias-of 4.06.1+flambda
+
+# Before you build, you should install ocamlgraph via opam and build &
+# install dependencies
