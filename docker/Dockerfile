@@ -7,7 +7,7 @@ RUN apt-get update && \
   apt-get install --yes --no-install-recommends \
     autoconf automake cmake curl libc6-dev libsqlite3-dev pkg-config zlib1g-dev \
     python2.7 libgmp-dev libc6-i386 lib32z1 lib32stdc++6 rsync libmpfr-dev \
-    openjdk-8-jdk-headless tzdata bubblewrap patchelf && \
+    openjdk-8-jdk-headless tzdata bubblewrap patchelf \
     patch unzip make gcc g++ xz-utils && \
   rm -rf /var/lib/apt/lists/*
 
