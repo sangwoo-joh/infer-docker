@@ -7,7 +7,7 @@ RUN apt-get update && \
     autoconf automake cmake curl libc6-dev libsqlite3-dev pkg-config zlib1g-dev \
     python libgmp-dev libc6-i386 lib32z1 lib32stdc++6 rsync libmpfr-dev \
     openjdk-8-jdk-headless tzdata patchelf \
-    patch unzip make gcc g++ xz-utils git && \
+    patch unzip make gcc g++ xz-utils git ssh && \
   rm -rf /var/lib/apt/lists/*
 
 # install opam
